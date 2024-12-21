@@ -1,0 +1,188 @@
+CRITICAL - 2024-12-14 11:02:28 --> ErrorException: Undefined variable $calon
+[Method: GET, Route: zidan]
+in APPPATH\Views\profil\calon.php on line 10.
+ 1 APPPATH\Views\profil\calon.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $calon', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Views\\profil\\calon.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Views\\profil\\calon.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profil/calon', [], true)
+ 5 APPPATH\Controllers\Profil.php(15): view('profil/calon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:03:08 --> ErrorException: Undefined variable $calon
+[Method: GET, Route: zidan]
+in APPPATH\Views\profil\calon.php on line 10.
+ 1 APPPATH\Views\profil\calon.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $calon', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Views\\profil\\calon.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Views\\profil\\calon.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profil/calon', [], true)
+ 5 APPPATH\Controllers\Profil.php(15): view('profil/calon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:06:56 --> ErrorException: file_get_contents(C:\Users\WINDOWS 11\Documents\Proyek\pemilwa-fisip-ub\app\Config/data.json): Failed to open stream: No such file or directory
+[Method: GET, Route: zidan]
+in APPPATH\Controllers\Profil.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Config/data.json): Failed to open stream: No such file or directory', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Controllers\\Profil.php', 13)
+ 2 APPPATH\Controllers\Profil.php(13): file_get_contents('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Config/data.json')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:07:25 --> ErrorException: file_get_contents(C:\Users\WINDOWS 11\Documents\Proyek\pemilwa-fisip-ub\app\Config/identity.json): Failed to open stream: No such file or directory
+[Method: GET, Route: zidan]
+in APPPATH\Controllers\Profil.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Config/identity.json): Failed to open stream: No such file or directory', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Controllers\\Profil.php', 13)
+ 2 APPPATH\Controllers\Profil.php(13): file_get_contents('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Config/identity.json')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:07:26 --> ErrorException: file_get_contents(C:\Users\WINDOWS 11\Documents\Proyek\pemilwa-fisip-ub\app\Config/identity.json): Failed to open stream: No such file or directory
+[Method: GET, Route: zidan]
+in APPPATH\Controllers\Profil.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Config/identity.json): Failed to open stream: No such file or directory', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Controllers\\Profil.php', 13)
+ 2 APPPATH\Controllers\Profil.php(13): file_get_contents('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Config/identity.json')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:07:54 --> ErrorException: file_get_contents(C:\Users\WINDOWS 11\Documents\Proyek\pemilwa-fisip-ub\app\http://localhost:8080/json/identity.json): Failed to open stream: No such file or directory
+[Method: GET, Route: zidan]
+in APPPATH\Controllers\Profil.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\http://localhost:8080/json/identity.json): Failed to open stream: No such file or directory', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Controllers\\Profil.php', 13)
+ 2 APPPATH\Controllers\Profil.php(13): file_get_contents('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\http://localhost:8080/json/identity.json')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:07:55 --> ErrorException: file_get_contents(C:\Users\WINDOWS 11\Documents\Proyek\pemilwa-fisip-ub\app\http://localhost:8080/json/identity.json): Failed to open stream: No such file or directory
+[Method: GET, Route: zidan]
+in APPPATH\Controllers\Profil.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\http://localhost:8080/json/identity.json): Failed to open stream: No such file or directory', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Controllers\\Profil.php', 13)
+ 2 APPPATH\Controllers\Profil.php(13): file_get_contents('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\http://localhost:8080/json/identity.json')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:09:18 --> ErrorException: file_get_contents(http://localhost:8080/json/identity.json): Failed to open stream: HTTP request failed!
+[Method: GET, Route: zidan]
+in APPPATH\Controllers\Profil.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost:8080/json/identity.json): Failed to open stream: HTTP request failed!', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Controllers\\Profil.php', 13)
+ 2 APPPATH\Controllers\Profil.php(13): file_get_contents('http://localhost:8080/json/identity.json')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:09:19 --> ErrorException: file_get_contents(C:\Users\WINDOWS 11\Documents\Proyek\pemilwa-fisip-ub\app\http://localhost:8080/json/identity.json): Failed to open stream: No such file or directory
+[Method: GET, Route: zidan]
+in APPPATH\Controllers\Profil.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\http://localhost:8080/json/identity.json): Failed to open stream: No such file or directory', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Controllers\\Profil.php', 13)
+ 2 APPPATH\Controllers\Profil.php(13): file_get_contents('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\http://localhost:8080/json/identity.json')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:10:51 --> ErrorException: file_get_contents(C:\Users\WINDOWS 11\Documents\Proyek\pemilwa-fisip-ub\writable\json/identity.json): Failed to open stream: No such file or directory
+[Method: GET, Route: zidan]
+in APPPATH\Controllers\Profil.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\writable\\json/identity.json): Failed to open stream: No such file or directory', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Controllers\\Profil.php', 14)
+ 2 APPPATH\Controllers\Profil.php(14): file_get_contents('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\writable\\json/identity.json')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:10:53 --> ErrorException: file_get_contents(C:\Users\WINDOWS 11\Documents\Proyek\pemilwa-fisip-ub\writable\json/identity.json): Failed to open stream: No such file or directory
+[Method: GET, Route: zidan]
+in APPPATH\Controllers\Profil.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\writable\\json/identity.json): Failed to open stream: No such file or directory', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Controllers\\Profil.php', 14)
+ 2 APPPATH\Controllers\Profil.php(14): file_get_contents('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\writable\\json/identity.json')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:11:10 --> ErrorException: file_get_contents(C:\Users\WINDOWS 11\Documents\Proyek\pemilwa-fisip-ub\writable\json\identity.json): Failed to open stream: No such file or directory
+[Method: GET, Route: zidan]
+in APPPATH\Controllers\Profil.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\writable\\json\\identity.json): Failed to open stream: No such file or directory', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Controllers\\Profil.php', 14)
+ 2 APPPATH\Controllers\Profil.php(14): file_get_contents('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\writable\\json\\identity.json')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:11:11 --> ErrorException: file_get_contents(C:\Users\WINDOWS 11\Documents\Proyek\pemilwa-fisip-ub\writable\json\identity.json): Failed to open stream: No such file or directory
+[Method: GET, Route: zidan]
+in APPPATH\Controllers\Profil.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\writable\\json\\identity.json): Failed to open stream: No such file or directory', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Controllers\\Profil.php', 14)
+ 2 APPPATH\Controllers\Profil.php(14): file_get_contents('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\writable\\json\\identity.json')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:16:29 --> TypeError: view(): Argument #2 ($data) must be of type array, null given, called in C:\Users\WINDOWS 11\Documents\Proyek\pemilwa-fisip-ub\app\Controllers\Profil.php on line 21
+[Method: GET, Route: zidan]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Profil.php(21): view('profil/calon', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-14 11:26:30 --> ErrorException: Undefined variable $calon
+[Method: GET, Route: zidan]
+in APPPATH\Views\profil\calon.php on line 6.
+ 1 APPPATH\Views\profil\calon.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $calon', 'C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Views\\profil\\calon.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Views\\profil\\calon.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('profil/calon', [], true)
+ 5 APPPATH\Controllers\Profil.php(23): view('profil/calon', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->zidan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')

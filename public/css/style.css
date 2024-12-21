@@ -1,0 +1,95 @@
+* {
+    font-family: Geneva, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffe6be !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.font-cream {
+    color: #ffe6be !important;
+    text-decoration: none;
+}
+
+.font-maroon {
+    color: #7f2324 !important;
+}
+
+.font-cream-sec {
+    color: #d1bc9b !important;
+    text-decoration: none;
+}
+
+.font-blue {
+    color: #3652C2 !important;
+}
+
+.font-alex {
+    font-family: 'Alex Brush';
+    font-size: 4rem;
+    line-height: 0.8;
+}
+
+.btn-cream {
+    background-color: #ffe6be !important;
+    color: #7f2324 !important;
+}
+
+.btn-cream:hover {
+    background-color: transparent !important;
+    color: #ffe6be !important;
+    border: 1px solid #ffe6be !important;
+}
+
+.btn-cream-blue {
+    background-color: #ffe6be !important;
+    color: #3652C2 !important;
+}
+
+.btn-cream-blue:hover {
+    background-color: transparent !important;
+    color: #ffe6be !important;
+    border: 1px solid #ffe6be !important;
+}
+
+.btn-maroon {
+    background-color: #7f2324 !important;
+    color: #ffe6be !important;
+}
+
+.btn-maroon:hover {
+    background-color: transparent !important;
+    color: #7f2324 !important;
+    border: 1px solid #7f2324 !important;
+}
+
+.btn-blue-transparent {
+    background-color: #3652C2 !important;
+    color: #ffe6be !important;
+}
+
+.btn-blue-transparent:hover {
+    border: 1px solid #3652C2 !important;
+    background-color: transparent !important;
+    color: #3652C2 !important;
+}
+
+.bg-maroon {
+    background-color: #7f2324 !important;
+    color: #ffe6be;
+}
+
+.bg-cream {
+    background-color: #ffe6be !important;
+    color: #7f2324 !important;
+}
+
+.letter-spacing-1 {
+    letter-spacing: -1px;
+}
+

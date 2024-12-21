@@ -1,0 +1,83 @@
+CRITICAL - 2024-12-13 07:31:45 --> ErrorException: Undefined property: CodeIgniter\View\View::$include
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 108.
+ 1 APPPATH\Views\home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$include', 'C:\\xampp\\htdocs\\pemilwa-fisip-ub\\app\\Views\\home.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pemilwa-fisip-ub\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-13 07:32:03 --> ErrorException: Undefined property: CodeIgniter\View\View::$include
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 108.
+ 1 APPPATH\Views\home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$include', 'C:\\xampp\\htdocs\\pemilwa-fisip-ub\\app\\Views\\home.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pemilwa-fisip-ub\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-13 07:32:04 --> ErrorException: Undefined property: CodeIgniter\View\View::$include
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 108.
+ 1 APPPATH\Views\home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$include', 'C:\\xampp\\htdocs\\pemilwa-fisip-ub\\app\\Views\\home.php', 108)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pemilwa-fisip-ub\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-13 07:51:35 --> ErrorException: Undefined variable $a
+[Method: GET, Route: /]
+in APPPATH\Views\lp\slide-proker.php on line 12.
+ 1 APPPATH\Views\lp\slide-proker.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $a', 'C:\\xampp\\htdocs\\pemilwa-fisip-ub\\app\\Views\\lp\\slide-proker.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pemilwa-fisip-ub\\app\\Views\\lp\\slide-proker.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('lp/slide-proker', null, true)
+ 5 APPPATH\Views\home.php(108): CodeIgniter\View\View->include('lp/slide-proker')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pemilwa-fisip-ub\\app\\Views\\home.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 9 APPPATH\Controllers\Home.php(11): view('home')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pemilwa-fisip-ub\\public\\index.php')
+CRITICAL - 2024-12-13 07:52:03 --> ErrorException: Undefined variable $a
+[Method: GET, Route: /]
+in APPPATH\Views\lp\slide-proker.php on line 12.
+ 1 APPPATH\Views\lp\slide-proker.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $a', 'C:\\xampp\\htdocs\\pemilwa-fisip-ub\\app\\Views\\lp\\slide-proker.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pemilwa-fisip-ub\\app\\Views\\lp\\slide-proker.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('lp/slide-proker', null, true)
+ 5 APPPATH\Views\home.php(108): CodeIgniter\View\View->include('lp/slide-proker')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pemilwa-fisip-ub\\app\\Views\\home.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 9 APPPATH\Controllers\Home.php(11): view('home')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\pemilwa-fisip-ub\\public\\index.php')

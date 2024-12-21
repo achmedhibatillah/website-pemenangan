@@ -1,0 +1,17 @@
+CRITICAL - 2024-12-15 13:15:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "lp/top.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('lp/top.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('lp/top', null, true)
+ 3 APPPATH\Views\home.php(4): CodeIgniter\View\View->include('lp/top')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\app\\Views\\home.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 7 APPPATH\Controllers\Home.php(24): view('home', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\WINDOWS 11\\Documents\\Proyek\\pemilwa-fisip-ub\\public\\index.php')

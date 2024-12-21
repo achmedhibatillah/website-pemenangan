@@ -1,0 +1,324 @@
+[
+    {
+        "nama": "Muhammad Azhar Zidane",
+        "nama-dec": "<i class='font-alex'>M</i>uhammad <i class='font-alex'>A</i>zhar <i class='font-alex'>Z</i>idane",
+        "prodi": "Ilmu Politik 2022",
+        "deskripsi": "Sedikit lebih beda baik dibandingkan sedikit lebih baik, karena saat kamu berbeda kamu layak untuk diperhitungkan.",
+        "foto": "profil-capres",
+        "foto-square": "profil-capres-square",
+        "bg-foto": "bg-profil-capres",
+        "quote-calon": "quote-capres",
+        "instagram": "https://www.instagram.com/zidaneazh_/",
+        "linkedin": "https://www.linkedin.com/in/azharzidane/",
+        "prestasi": 
+        [
+            {
+              "prestasi": "Juara 3 Lomba Essay Nasional \"Legislative Era\" Dies Natalis Dewan Legislatif Mahasiswa FIB (GENEFIE) Universitas Jendral Soedirman",
+              "tingkat": "Universitas",
+              "tahun": "2024"
+            },
+            {
+              "prestasi": "Juara 1 Lomba Essay Legal Critique dengan tema “Meneropong Undang-Undang” oleh DPM Fakultas Ilmu Budaya Universitas Brawijaya",
+              "tingkat": "Universitas",
+              "tahun": "2024"
+            },
+            {
+              "prestasi": "Mahasiswa Berprestasi FISIP UB",
+              "tingkat": "Fakultas",
+              "tahun": "2024"
+            },
+            {
+              "prestasi": "Duta Festival Luar Negeri PPI Dunia",
+              "tingkat": "Internasional",
+              "tahun": "2023/2024"
+            },
+            {
+              "prestasi": "Delegation for International Islamic Volunteering: Ekspedisi Muslim Suku Champa Vietnam",
+              "tingkat": "Internasional",
+              "tahun": "2024"
+            },
+            {
+              "prestasi": "Winner of Putra Putri Brawijaya",
+              "tingkat": "Universitas",
+              "tahun": "2023"
+            },
+            {
+              "prestasi": "Bandung’s 100 Finest Youth TEDxDago",
+              "tingkat": "Daerah",
+              "tahun": "2023"
+            },
+            {
+              "prestasi": "Juara 3 Lomba Debat Politik Mahasiswa dan Best Essay HIMA PKN Fakultas Ilmu Sosial Universitas Negeri Semarang",
+              "tingkat": "Nasional",
+              "tahun": "2023"
+            },
+            {
+              "prestasi": "Juara 1 Essay Word Politics Competition FISIP Universitas Udaya",
+              "tingkat": "Nasional",
+              "tahun": "2022"
+            },
+            {
+              "prestasi": "Ketua dan Peserta Terbaik Parlemen Remaja Setjen DPR RI",
+              "tingkat": "Nasional",
+              "tahun": "2021"
+            },
+            {
+              "prestasi": "Duta Hukum dan HAM Provinsi Jawa Barat",
+              "tingkat": "Provinsi",
+              "tahun": "2021"
+            },
+            {
+              "prestasi": "Duta Generasi Hijau Provinsi Jawa Barat",
+              "tingkat": "Provinsi",
+              "tahun": "2021"
+            }
+          ],
+        "pengalaman-organisasi": [
+            {
+                "organisasi": "Putra Putri Brawijaya",
+                "jabatan": "Kepala Divisi Advokasi dan Sosial Responsibility",
+                "tahun": "2024"
+            },
+            {
+                "organisasi": "Himpunan Mahasiswa Ilmu Politik Indonesia Korwil 6",
+                "jabatan": "Kepala Divisi Keilmuan",
+                "tahun": "2024"
+            },
+            {
+                "organisasi": "BEM FISIP UB",
+                "jabatan": "Staff Ahli Kementerian Dalam Negeri",
+                "tahun": "2023"
+            },
+            {
+                "organisasi": "Duta Anti Narkoba Kota Malang",
+                "jabatan": "Staff Divisi Pemberdayaan Sumber Daya Manusia",
+                "tahun": "2023"
+            },
+            {
+                "organisasi": "Green Generation Indonesia",
+                "jabatan": "Staff Kementrian Porgram Strategis Menengah dan Panjang & Staff Kementrian Pemberdayaan Sumber Daya Manusia",
+                "tahun": "2021-2022"
+            },
+            {
+                "organisasi": "Eksekutif Mahasiswa UB",
+                "jabatan": "Staff Muda Kementrian Kebijakan Wilayah dan Nasional",
+                "tahun": "2022"
+            },
+            {
+                "organisasi": "HIMAPOLITIK FISIP UB",
+                "jabatan": "Staff Muda Departemen Kajian Sosial dan Politik",
+                "tahun": "2022"
+            },
+            {
+                "organisasi": "Forum Osis Jawa Barat",
+                "jabatan": "Anggota",
+                "tahun": "2002-2022"
+            },
+            {
+                "organisasi": "Forum Pelajar Sadar Hukum dan HAM Provinsi Jawa Barat",
+                "jabatan": "Anggota",
+                "tahun": "2021-2022"
+            },
+            {
+                "organisasi": "Forum Pelajar Sadar Hukum dan HAM Kabupaten Kuningan",
+                "jabatan": "Ketua Bidang Pendidikan, Pelatihan dan Evaluasi",
+                "tahun": "2021-2022"
+            },
+            {
+                "organisasi": "Organisasi Rohani Islam SMA ITUS Kuningan",
+                "jabatan": "Ketua",
+                "tahun": "2021"
+            }
+        ],
+        "pengalaman-kepanitiaan":
+        [
+            {
+              "kepanitiaan": "PKKMB FISIP UB",
+              "jabatan": "Ketua Pelaksana",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "Pemilihan Duta Anti Narkoba Kota Malang 2024",
+              "jabatan": "Staff Divisi Humas",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "Silaturahmi Nasional Ke-3 Forum Bisnis BUMPT PTN-BH Se-Indonesia di Universitas Brawijaya",
+              "jabatan": "Staff Divisi Creative",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "Halal Bihalal Universitas Brawijaya",
+              "jabatan": "Koor. Divisi Acara",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "Brawijaya Academy Putra Putri Brawijaya 2023",
+              "jabatan": "Ketua Pelaksana",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "Kaleidoskop Jingga BEM FISIP UB 2023",
+              "jabatan": "Ketua Pelaksana",
+              "tahun": "2023"
+            },
+            {
+              "kepanitiaan": "Koloseum HIMAPOLINDO Korwil 6 x Road Seminar HIMAPOLITIK FISIP UB 2023",
+              "jabatan": "Ketua Pelaksana",
+              "tahun": "2023"
+            },
+            {
+              "kepanitiaan": "Lextion Bazar LKM & Komunitas BEM FISIP UB 2023",
+              "jabatan": "Koor. Divisi Sponsorship",
+              "tahun": "2023"
+            },
+            {
+              "kepanitiaan": "Jambore Nasional Generasi Hijau 2022 di Balikpapan, Kalimantan Timur",
+              "jabatan": "Staff Divisi Kepesertaan",
+              "tahun": "2023"
+            },
+            {
+              "kepanitiaan": "GG Kelana: Pengabdian Masyarakat di Gunungkidul, Yogyakarta",
+              "jabatan": "Staff Divisi Acara dan Mentor",
+              "tahun": "2022"
+            },
+            {
+              "kepanitiaan": "Gebyar Kreasi Siswa SMA ITUS",
+              "jabatan": "Ketua Pelaksana",
+              "tahun": "2021"
+            }
+          ]
+                 
+    },
+    {
+        "nama": "Regina Shakila Hudda",
+        "nama-dec": "<i class='font-alex'>R</i>egina <i class='font-alex'>S</i>hakila <i class='font-alex'>H</i>udda",
+        "prodi": "Psikologi 2022",
+        "deskripsi": "Jika tidak bisa memberikan manfaat bagi orang lain, jangan sampai memberikan dampak buruk bagi orang lain.",
+        "foto": "profil-cawapres",
+        "foto-square": "profil-cawapres-square",
+        "bg-foto": "bg-profil-cawapres",
+        "quote-calon": "quote-cawapres",
+        "instagram": "https://www.instagram.com/reginaahs/",
+        "linkedin": "https://www.linkedin.com/in/regina-hudda-shakila/",
+        "prestasi":
+        [
+            {
+              "prestasi": "Delegasi forum Internasional IACCP",
+              "tingkat": "Universitas",
+              "tahun": "2024"
+            },
+            {
+              "prestasi": "Student Exchange Australia SIAP Unisq",
+              "tingkat": "Universitas",
+              "tahun": "2024"
+            },
+            {
+              "prestasi": "Pemateri TO staff magang BEM FISIP UB",
+              "tingkat": "Fakultas",
+              "tahun": "2024"
+            },
+            {
+              "prestasi": "Pemateri Probin Psikologi",
+              "tingkat": "Jurusan",
+              "tahun": "2024"
+            },
+            {
+              "prestasi": "Semifinalis Duta Pendidikan Jawa Timur",
+              "tingkat": "Provinsi",
+              "tahun": "2023"
+            },
+            {
+              "prestasi": "Winner Putra Putri Psikologi",
+              "tingkat": "Jurusan",
+              "tahun": "2023"
+            }
+        ],          
+        "pengalaman-organisasi":
+        [
+            {
+                "organisasi": "BEM FISIP UB",
+                "jabatan": "Wakil Menteri Kementrian Dalam Negeri",
+                "tahun": "2024"
+            },
+            {
+                "organisasi": "LKM DAY’S OUT BEM FISIP UB",
+                "jabatan": "Wakil Ketua Pelaksana",
+                "tahun": "2024"
+            },
+            {
+                "organisasi": "Campus Ambassador Jobstreet",
+                "jabatan": "Manager of Event",
+                "tahun": "2024"
+            },
+            {
+                "organisasi": "BEM FISIP UB",
+                "jabatan": "Staf Ahli Kementrian Dalam Negeri",
+                "tahun": "2023"
+            },
+            {
+                "organisasi": "BEM FISIP UB",
+                "jabatan": "Ketua Pelaksana FOXCOM",
+                "tahun": "2023"
+            },
+            {
+                "organisasi": "BEM FISIP UB",
+                "jabatan": "Staf Magang",
+                "tahun": "2022"
+            }
+        ],
+        "pengalaman-kepanitiaan":
+        [
+            {
+              "kepanitiaan": "Kaleidoskop Jingga",
+              "jabatan": "Steering Committe",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "FISIP FUN DAY Chapter 1&2",
+              "jabatan": "Steering Committe",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "Dagri Bertamu",
+              "jabatan": "Steering Committe",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "Fimoly",
+              "jabatan": "Steering Committe",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "Foxcom",
+              "jabatan": "Steering Committe",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "Lextion",
+              "jabatan": "Steering Committe",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "Bagan Memori",
+              "jabatan": "Steering Committe",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "Hallo Dean",
+              "jabatan": "Steering Committe",
+              "tahun": "2024"
+            },
+            {
+              "kepanitiaan": "Pyschocamp",
+              "jabatan": "Coordinator Public Relation",
+              "tahun": "2023"
+            },
+            {
+              "kepanitiaan": "Lextion",
+              "jabatan": "Vice Coordinator Event Manager",
+              "tahun": "2023"
+            }
+          ]                  
+    }
+]
